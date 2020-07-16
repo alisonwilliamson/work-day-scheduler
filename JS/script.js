@@ -52,5 +52,5 @@ $(document).ready(function () {
     }
     hourChecker();
     // checks hour every 15 seconds in order to update past, present & future
-    setInterval(hourChecker, 15000);
+    let interval = setInterval(hourChecker, 15000);
 })
