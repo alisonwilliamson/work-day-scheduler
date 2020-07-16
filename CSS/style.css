@@ -23,6 +23,7 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  border-top: dashed 1px;
 }
 
 .time-block{
@@ -41,6 +42,7 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 25px;
 }
 
 .past {
@@ -69,4 +71,16 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.container {
+  padding-bottom: 200px;
+}
+
+#last-row {
+  border-bottom: dashed 1px;
+}
+
+#last-hour {
+  border-bottom: dashed 1px;
 }
